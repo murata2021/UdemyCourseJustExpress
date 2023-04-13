@@ -4,7 +4,8 @@ var router = express.Router();
 const axios=require("axios");
 const e = require('express');
 
-const apiKey="878a023dc27d6f2a12a4013ea9ff1b54"
+//GENERATE YOUR OWN API KEY ON https://developers.themoviedb.org/
+const apiKey="YOUR_API_KEY"
 const apiBaseUrl="https://api.themoviedb.org/3"
 const nowPlayingUrl=`${apiBaseUrl}/movie/now_playing?api_key=${apiKey}`
 const imageBaseUrl="https://image.tmdb.org/t/p/w300"
